@@ -18,10 +18,44 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #101214;
+}
+
+.header-links-animation:before {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  height: 3px;
+  width: 0%;
+  background-color: #2852E4;
+  transition: all 0.1s ease-in;
+  transform-origin: left;
+  border-radius: 40px;
+}
+
+.header-links-animation:hover:before {
+  width: 100%;
+}
+
+
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.image-bounce {
+  animation: bounce 1s ease-in-out infinite;
 }
