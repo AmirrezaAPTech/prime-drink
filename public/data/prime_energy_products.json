@@ -1,0 +1,121 @@
+{
+    "categories": [
+        {
+            "name": "Bottles",
+            "products": [
+                {
+                    "name": "Glowberry",
+                    "price": "$29.99",
+                    "pack_size": "12PK",
+                    "image": ["Banner-Bottle.png", "63e4c512ee787030b3226fc8_Prime - Logan Paul _ KSI - Banner.png"]
+                },
+                {
+                    "name": "X",
+                    "price": "$29.99",
+                    "pack_size": "12PK",
+                    "image": ["x.png"]
+                },
+                {
+                    "name": "Strawberry Banana",
+                    "price": "$29.99",
+                    "pack_size": "12PK",
+                    "image": ["strawberry_banana.png"]
+                },
+                {
+                    "name": "Cherry Freeze",
+                    "price": "$29.99",
+                    "pack_size": "12PK",
+                    "image": ["cherry_freeze.png"]
+                },
+                {
+                    "name": "Ice Pop",
+                    "price": "$29.99",
+                    "pack_size": "12PK",
+                    "image": ["ice_pop.png"]
+                },
+                {
+                    "name": "Strawberry Watermelon",
+                    "price": "$29.99",
+                    "pack_size": "12PK",
+                    "image": ["strawberry_watermelon.png"]
+                }
+            ]
+        },
+        {
+            "name": "Cans",
+            "products": [
+                {
+                    "name": "Dream Pop",
+                    "price": "$29.99",
+                    "pack_size": "12PK",
+                    "image": "dream_pop.png"
+                },
+                {
+                    "name": "Original",
+                    "price": "$29.99",
+                    "pack_size": "12PK",
+                    "image": "original.png"
+                },
+                {
+                    "name": "Ice Pop",
+                    "price": "$29.99",
+                    "pack_size": "12PK",
+                    "image": "ice_pop_can.png"
+                },
+                {
+                    "name": "Strawberry Watermelon",
+                    "price": "$29.99",
+                    "pack_size": "12PK",
+                    "image": "strawberry_watermelon_can.png"
+                },
+                {
+                    "name": "Blue Raspberry",
+                    "price": "$29.99",
+                    "pack_size": "12PK",
+                    "image": "blue_raspberry.png"
+                }
+            ]
+        },
+        {
+            "name": "Sticks",
+            "products": [
+                {
+                    "name": "Cherry Freeze",
+                    "price": "$13.99",
+                    "pack_size": "6PK",
+                    "image": "cherry_freeze_stick.png"
+                },
+                {
+                    "name": "Lemonade",
+                    "price": "$13.99",
+                    "pack_size": "6PK",
+                    "image": "lemonade.png"
+                },
+                {
+                    "name": "Strawberry Watermelon",
+                    "price": "$13.99",
+                    "pack_size": "6PK",
+                    "image": "strawberry_watermelon_stick.png"
+                },
+                {
+                    "name": "Ice Pop",
+                    "price": "$13.99",
+                    "pack_size": "6PK",
+                    "image": "ice_pop_stick.png"
+                },
+                {
+                    "name": "Tropical Punch",
+                    "price": "$13.99",
+                    "pack_size": "6PK",
+                    "image": "tropical_punch.png"
+                },
+                {
+                    "name": "Blue Raspberry",
+                    "price": "$13.99",
+                    "pack_size": "6PK",
+                    "image": "blue_raspberry_stick.png"
+                }
+            ]
+        }
+    ]
+}

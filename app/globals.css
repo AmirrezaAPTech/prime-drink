@@ -55,7 +55,19 @@ body {
     transform: translateY(-10px);
   }
 }
-
 .image-bounce {
   animation: bounce 1s ease-in-out infinite;
+}
+
+@keyframes optionsAnimation {
+  0% {
+    transform: translatex(100%);
+  }
+  100% {
+    transform: translatex(0);
+  }
+}
+
+.option-animation {
+  animation: optionsAnimation 0.5s ease-in-out;
 }
