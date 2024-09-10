@@ -11,6 +11,7 @@ export interface Product {
   image: string[];
   price: string;
   pack_size: string;
+  quantity: number;
 }
 
 interface Category {
@@ -66,7 +67,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
   }
 
   return (
-    <div className='pb-20 pt-40 xl:w-[1200px] w-full mx-auto flex justify-center items-center max-sm:p-2'>
+    <div className='pb-20 md:pt-40 pt-28 xl:w-[1200px] w-full mx-auto flex justify-center items-center max-sm:px-2'>
         <div className='flex max-xl:flex-col justify-center items-center gap-10 w-full'>
         <div className='max-w-[500px] w-full'>
       <ImageSwipperBox category={category} name={name} />

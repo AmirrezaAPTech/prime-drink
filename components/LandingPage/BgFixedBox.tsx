@@ -1,5 +1,5 @@
 import React from 'react'
-import BgBannerImg from '../public/Images/63e4c512ee787030b3226fc8_Prime - Logan Paul _ KSI - Banner.png'
+import BgBannerImg from '@/public/Images/63e4c512ee787030b3226fc8_Prime - Logan Paul _ KSI - Banner.png'
 
 interface BgFixedBoxProps {
     imgUrl: string

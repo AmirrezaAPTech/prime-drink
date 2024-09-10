@@ -7,36 +7,42 @@
                     "name": "Glowberry",
                     "price": "$29.99",
                     "pack_size": "12PK",
+                    "quantity": 0,
                     "image": ["Banner-Bottle.png", "63e4c512ee787030b3226fc8_Prime - Logan Paul _ KSI - Banner.png"]
                 },
                 {
                     "name": "X",
                     "price": "$29.99",
                     "pack_size": "12PK",
+                    "quantity": 10,
                     "image": ["x.png"]
                 },
                 {
                     "name": "Strawberry Banana",
                     "price": "$29.99",
                     "pack_size": "12PK",
+                    "quantity": 10,
                     "image": ["strawberry_banana.png"]
                 },
                 {
                     "name": "Cherry Freeze",
                     "price": "$29.99",
                     "pack_size": "12PK",
+                    "quantity": 10,
                     "image": ["cherry_freeze.png"]
                 },
                 {
                     "name": "Ice Pop",
                     "price": "$29.99",
                     "pack_size": "12PK",
+                    "quantity": 10,
                     "image": ["ice_pop.png"]
                 },
                 {
                     "name": "Strawberry Watermelon",
                     "price": "$29.99",
                     "pack_size": "12PK",
+                    "quantity": 25,
                     "image": ["strawberry_watermelon.png"]
                 }
             ]
@@ -48,30 +54,35 @@
                     "name": "Dream Pop",
                     "price": "$29.99",
                     "pack_size": "12PK",
+                    "quantity": 25,
                     "image": "dream_pop.png"
                 },
                 {
                     "name": "Original",
                     "price": "$29.99",
                     "pack_size": "12PK",
+                    "quantity": 25,
                     "image": "original.png"
                 },
                 {
                     "name": "Ice Pop",
                     "price": "$29.99",
                     "pack_size": "12PK",
+                    "quantity": 25,
                     "image": "ice_pop_can.png"
                 },
                 {
                     "name": "Strawberry Watermelon",
                     "price": "$29.99",
                     "pack_size": "12PK",
+                    "quantity": 13,
                     "image": "strawberry_watermelon_can.png"
                 },
                 {
                     "name": "Blue Raspberry",
                     "price": "$29.99",
                     "pack_size": "12PK",
+                    "quantity": 13,
                     "image": "blue_raspberry.png"
                 }
             ]
@@ -83,36 +94,42 @@
                     "name": "Cherry Freeze",
                     "price": "$13.99",
                     "pack_size": "6PK",
+                    "quantity": 13,
                     "image": "cherry_freeze_stick.png"
                 },
                 {
                     "name": "Lemonade",
                     "price": "$13.99",
                     "pack_size": "6PK",
+                    "quantity": 13,
                     "image": "lemonade.png"
                 },
                 {
                     "name": "Strawberry Watermelon",
                     "price": "$13.99",
                     "pack_size": "6PK",
+                    "quantity": 13,
                     "image": "strawberry_watermelon_stick.png"
                 },
                 {
                     "name": "Ice Pop",
                     "price": "$13.99",
                     "pack_size": "6PK",
+                    "quantity": 13,
                     "image": "ice_pop_stick.png"
                 },
                 {
                     "name": "Tropical Punch",
                     "price": "$13.99",
                     "pack_size": "6PK",
+                    "quantity": 13,
                     "image": "tropical_punch.png"
                 },
                 {
                     "name": "Blue Raspberry",
                     "price": "$13.99",
                     "pack_size": "6PK",
+                    "quantity": 13,
                     "image": "blue_raspberry_stick.png"
                 }
             ]

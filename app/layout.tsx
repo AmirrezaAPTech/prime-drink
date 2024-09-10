@@ -16,9 +16,9 @@ export default function RootLayout({
   return (
     <html lang="en" className='no-scrollbar'>
       <body>
-      {/* <Header /> */}
+      <Header />
         {children}
-        {/* <Footer /> */}
+        <Footer />
         </body>
     </html>
   )

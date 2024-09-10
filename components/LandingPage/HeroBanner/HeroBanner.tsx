@@ -6,7 +6,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import GreenHeroBanner from './GreenHeroBanner';
+import GreenHeroBanner from './GreenHeroBanner'
 import PinkHeroBanner from './PinkHeroBanner';
 
 export default function HeroBanner() {
