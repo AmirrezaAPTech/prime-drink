@@ -1,3 +1,5 @@
+![Homepage Screenshot](./public/assets/cover.png)
+
 # 🥤 Prime Drink Frontend
 
 Welcome to the **Prime Drink** website frontend — a modern, responsive, and high-performance web app built with **Next.js**, **React**, and **Tailwind CSS**. This project is focused on delivering an immersive user experience to showcase Prime's beverage line, promotions, and product details.
