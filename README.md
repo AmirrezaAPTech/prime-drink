@@ -1,34 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🥤 Prime Drink Frontend
 
-## Getting Started
+Welcome to the **Prime Drink** website frontend — a modern, responsive, and high-performance web app built with **Next.js**, **React**, and **Tailwind CSS**. This project is focused on delivering an immersive user experience to showcase Prime's beverage line, promotions, and product details.
 
-First, run the development server:
+---
+
+## 🚀 Tech Stack
+
+This project is built using the following technologies:
+
+- **Next.js** 14 — React Framework for server-side rendering and static site generation.
+- **React** 18 — Component-based UI library.
+- **TypeScript** — Strongly-typed JavaScript for scalable code.
+- **Tailwind CSS** — Utility-first CSS framework for fast UI development.
+- **DaisyUI** — Tailwind CSS component library for rapid UI prototyping.
+- **Swiper** — Modern touch slider for product carousels.
+- **PostCSS + Autoprefixer** — Modern CSS tooling for compatibility and optimization.
+- **ESLint** — Code linting and standards enforcement.
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/prime-drink-frontend.git
+cd prime-drink-frontend
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Your app will be running at [http://localhost:3000](http://localhost:3000) 🚀
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🛠️ Available Scripts
 
-## Learn More
+- `npm run dev` — Start the development server.
+- `npm run build` — Create a production build.
+- `npm run start` — Start the app in production mode.
+- `npm run lint` — Lint the codebase using ESLint.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Folder Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```
+.
+├── components/       # Reusable UI components
+├── pages/            # Next.js pages and routes
+├── public/           # Static assets
+├── styles/           # Tailwind and custom styles
+├── utils/            # Helper functions (if any)
+├── tsconfig.json     # TypeScript config
+└── tailwind.config.js # Tailwind customization
+```
+---
 
-## Deploy on Vercel
+## 🤝 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
