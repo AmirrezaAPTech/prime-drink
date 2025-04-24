@@ -13,7 +13,7 @@ import Link from 'next/link';
 import BarIcon from './BarIcon';
 import Sidebar from './Sidebar';
 import ShopDropdown from './ShopDropdown';
-import Basket from './Basket';
+import Basket from './Basket/Basket';
 
 const Header = () => {
   const [shopDropDownVisible, setShopDropDownVisible] = useState(false);

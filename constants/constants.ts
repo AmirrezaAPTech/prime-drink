@@ -63,7 +63,8 @@ export interface ProductItem {
     name: string;
     priceDollar: string;
     pricePK: string;
-    imageUrl: StaticImageData
+    imageUrl: StaticImageData[];
+    quantity: number;
   }
   
 export interface PrimeItemsProps {
@@ -72,116 +73,135 @@ export interface PrimeItemsProps {
     energyCans: ProductItem[];
   }
 
-export const PrimeItems:PrimeItemsProps ={
-    hydration:[
-    {
+  export const PrimeItems: PrimeItemsProps = {
+    hydration: [
+      {
         name: "Glowberry",
         priceDollar: "$29.99",
         pricePK: "12PK",
-        imageUrl: GlowberryImg
-    },
-    {
+        quantity: 0,
+        imageUrl: [GlowberryImg]
+      },
+      {
         name: "X",
         priceDollar: "$29.99",
         pricePK: "12PK",
-        imageUrl: PrimeXImg
-    },
-    {
+        quantity: 10,
+        imageUrl: [PrimeXImg]
+      },
+      {
         name: "Strawberry Banana",
         priceDollar: "$29.99",
         pricePK: "12PK",
-        imageUrl: StrawberryBanana
-    },
-    {
+        quantity: 10,
+        imageUrl: [StrawberryBanana]
+      },
+      {
         name: "Cherry Freeze",
         priceDollar: "$29.99",
         pricePK: "12PK",
-        imageUrl: CherryFreezeImg
-    },
-    {
+        quantity: 10,
+        imageUrl: [CherryFreezeImg]
+      },
+      {
         name: "Ice Pop",
         priceDollar: "$29.99",
         pricePK: "12PK",
-        imageUrl: IcePop
-    },
-    {
+        quantity: 10,
+        imageUrl: [IcePop]
+      },
+      {
         name: "Strawberry Watermelon",
         priceDollar: "$29.99",
         pricePK: "12PK",
-        imageUrl: StrawberryWatermelon
-    },
-],
-hydrationPlus: [
-    {
+        quantity: 25,
+        imageUrl: [StrawberryWatermelon]
+      }
+    ],
+    hydrationPlus: [
+      {
         name: "Cherry Freeze",
         priceDollar: "$13.99",
         pricePK: "6PK",
-        imageUrl: CherryFreezeStick
-    },
-    {
+        quantity: 13,
+        imageUrl: [CherryFreezeStick]
+      },
+      {
         name: "Lemonade",
         priceDollar: "$13.99",
         pricePK: "6PK",
-        imageUrl: LemonadeStick
-    },
-    {
+        quantity: 13,
+        imageUrl: [LemonadeStick]
+      },
+      {
         name: "Strawberry Watermelon",
         priceDollar: "$13.99",
         pricePK: "6PK",
-        imageUrl: StrawberryWatermelonStick
-    },
-    {
+        quantity: 13,
+        imageUrl: [StrawberryWatermelonStick]
+      },
+      {
         name: "Ice Pop",
         priceDollar: "$13.99",
         pricePK: "6PK",
-        imageUrl: IcePopStick
-    },
-    {
+        quantity: 13,
+        imageUrl: [IcePopStick]
+      },
+      {
         name: "Tropical Punch",
         priceDollar: "$13.99",
         pricePK: "6PK",
-        imageUrl: TropicalPunchStick
-    },
-    {
+        quantity: 13,
+        imageUrl: [TropicalPunchStick]
+      },
+      {
         name: "Blue Raspberry",
         priceDollar: "$13.99",
         pricePK: "6PK",
-        imageUrl: BlueRaspberryStick
-    },
-],
-energyCans: [
-    {
+        quantity: 13,
+        imageUrl: [BlueRaspberryStick]
+      }
+    ],
+    energyCans: [
+      {
         name: "Dream Pop",
         priceDollar: "$29.99",
         pricePK: "12PK",
-        imageUrl: DreamPopCan
-    },
-    {
+        quantity: 25,
+        imageUrl: [DreamPopCan]
+      },
+      {
         name: "Original",
         priceDollar: "$29.99",
         pricePK: "12PK",
-        imageUrl: OriginalCan
-    },
-    {
+        quantity: 25,
+        imageUrl: [OriginalCan]
+      },
+      {
         name: "Ice Pop",
         priceDollar: "$29.99",
         pricePK: "12PK",
-        imageUrl: IcePopCan
-    },
-    {
+        quantity: 25,
+        imageUrl: [IcePopCan]
+      },
+      {
         name: "Strawberry Watermelon",
         priceDollar: "$29.99",
         pricePK: "12PK",
-        imageUrl: StrawberryWatermelonCan
-    },
-    {
+        quantity: 13,
+        imageUrl: [StrawberryWatermelonCan]
+      },
+      {
         name: "Blue Raspberry",
         priceDollar: "$29.99",
         pricePK: "12PK",
-        imageUrl: BlueRaspberryCan
-    },
-]
-}
+        quantity: 13,
+        imageUrl: [BlueRaspberryCan]
+      }
+    ]
+  };
+  
+  
 
 
 // Prime Group

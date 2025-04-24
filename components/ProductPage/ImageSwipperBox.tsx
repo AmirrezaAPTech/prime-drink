@@ -8,15 +8,15 @@ import 'swiper/css/thumbs';
 import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
 import { Swiper as SwiperType } from 'swiper';
 import SwiperSlideBox from './SwiperSlideBox';
+import { Product } from '@/app/[category]/[name]/page';
+import { ProductItem } from '@/constants/constants';
 
 interface ImageSwipperBoxProps {
-    category: string;
-    name: string;
+    product: ProductItem;
 }
 
-const ImageSwipperBox: React.FC<ImageSwipperBoxProps> = ({ category, name }) => {
+const ImageSwipperBox: React.FC<ImageSwipperBoxProps> = ({ product }) => {
     const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null);
-    const images = ['front', 'side', 'back'];
 
     return (
         <div className='w-full'>
@@ -32,12 +32,10 @@ const ImageSwipperBox: React.FC<ImageSwipperBoxProps> = ({ category, name }) => 
                 modules={[FreeMode, Navigation, Thumbs]}
                 className="mySwiper2"
             >
-                {images.map((image) => (
-                    <SwiperSlide key={image}>
+                {product.imageUrl.map((image, index) => (
+                    <SwiperSlide key={index}>
                         <SwiperSlideBox
                             image={image}
-                            category={category}
-                            name={name}
                             size={{ width: 200, height: 350 }}
                             className="max-xl:w-1/2"
                         />
@@ -56,12 +54,10 @@ const ImageSwipperBox: React.FC<ImageSwipperBoxProps> = ({ category, name }) => 
                     modules={[FreeMode, Navigation, Thumbs]}
                     className="mySwiper w-full mt-5 cursor-pointer"
                 >
-                    {images.map((image) => (
-                        <SwiperSlide key={image}>
+                    {product.imageUrl.map((img, index) => (
+                        <SwiperSlide key={index}>
                             <SwiperSlideBox
-                                image={image}
-                                category={category}
-                                name={name}
+                                image={img}
                                 size={{ width: 25, height: 30 }}
                             />
                         </SwiperSlide>
