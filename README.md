@@ -1,4 +1,4 @@
-![Homepage Screenshot](./public/assets/cover.png)
+![Homepage Screenshot](./public/cover.png)
 
 # 🥤 Prime Drink Frontend
 
